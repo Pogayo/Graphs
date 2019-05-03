@@ -1,6 +1,6 @@
 All the graph searches, (Depth First Search,Bread First Search and the variations of these two such as Dijkstra and A* follow the same pattern). Below is a template that describes searching in graphs.
 
-Pseudocode
+##Pseudocode
 
 search(start_node,goal_node):
      openNodes = list()                # empty list, if BFS,A* or Djikstra, use the Queue data structure. DFS uses a Stack
