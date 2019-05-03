@@ -28,5 +28,5 @@ def search(start_node,goal_node):
 **Note:** This is the iterative implementation of the searches. I have used it as it allows us to have a template for all the searches. 
 The recursive implementation for the specific searches is more elegant than the iterative version.
 ### Language specific implementation
- * For implementation of BFS and DFS in Java, visit this link
+ * For implementation of BFS and DFS in Java, [visit this link](https://github.com/Pogayo/Graphs/tree/master/Java)
  * For implementation of BFS and DFS in Python, visit this link
