@@ -8,7 +8,8 @@ def search(start_node,goal_node):
    visited = set()                   # empty set to store the nodes that we have visited already
    add start_node to openNodes 
    while openNodes is not empty: 
-     currentNode = openNodes.remove()   # This is where the difference comes in, if it is a BFS, you pick the first.DFS pick the last          if goal_node==currentNode: 
+     currentNode = openNodes.remove()   # This is where the difference comes in, if it is a BFS, you pick the first.DFS pick the last
+     if (goal_node==currentNode): 
              print "found the goal node"    # goal found 
               return node 
      endif 
