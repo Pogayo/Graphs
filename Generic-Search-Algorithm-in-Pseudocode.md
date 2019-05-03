@@ -11,7 +11,7 @@ def search(start_node,goal_node):
      currentNode = openNodes.remove()   # This is where the difference comes in, if it is a BFS, you pick the first.DFS pick the last
      if (goal_node==currentNode): 
              print "found the goal node"    # goal found 
-              return node 
+             return node 
      endif 
      add currentNode to visited set 
      neighbours=currentNode.getNeighbours()  #get the current nodes neighbours 
@@ -19,7 +19,7 @@ def search(start_node,goal_node):
          if neighbour is not visited:     #This is necessary to avoid finding yourself in a cycle which creates an endless loop 
               add neighbours to openNodes  #staging them for traversal 
          endif 
-      endfor 
+     endfor 
    endwhile 
    print "The goal cannot be reached from the start node" 
    return None  
